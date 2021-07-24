@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Open+Sans:ital,wght@1,600&display=swap');
+
+body{
+  background: #0A1931;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  background: #0A1931;
+}
+.todo{
+  font-family: 'Benne', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-control{
+  border-radius: 40px !important;
+  outline: none;
+}
+.fas{
+  color: #ffff;
+  transition: 1ms ease-in;
+}
+
+.fas:hover{
+  padding: 4px;
+}
+
+@media screen and (min-width: 480px) {
+   .form-control{
+    width: 100%;   
+    outline: none;
+  }
+}
+.show-item {
+  padding: 5px;
+  
+}
+.show-item .item{
+  color: #0A1931;
+  padding: 4px;
+  background: #fff;
+  border-radius: 40px;
+  transition: 100ms ease-in-out;
+}
+.show-item .item:hover{
+color: #fff;
+  background: blueviolet;
+}
+
+.input-group{
+  color: #0A1931;
+  padding: 10px;
+  background: #fff;
+  border-radius: 40px;
+  transition: 100ms ease-in-out;
+}
